@@ -1,0 +1,113 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+body,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  color: #404040;
+  background: #f9fafa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 400;
+  min-width: 320px;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  min-height: 1px;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  shape-margin: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.h {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin: 0 0 0.5em;
+  color: #404040;
+}
+
+h1,
+.h1 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h2,
+.h2 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h3,
+.h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a,
+a:focus,
+a:hover {
+  color: #3082d4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #429bf4;
+}
+
+button {
+  cursor: pointer;
+}

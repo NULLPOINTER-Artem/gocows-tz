@@ -1,0 +1,32 @@
+.code-copied {
+  pointer-events: none;
+  visibility: hidden;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px #00000029;
+  padding: 16px;
+  max-width: 227px;
+  width: 100%;
+  border-radius: 6px;
+
+  position: absolute;
+  z-index: 1000;
+}
+.code-copied.is-show {
+  pointer-events: all;
+  visibility: visible;
+}
+.code-copied__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.code-copied__icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 6px;
+}
+.code-copied__description {
+  font-size: 13px;
+  line-height: 22px;
+  color: #5e6166;
+}
