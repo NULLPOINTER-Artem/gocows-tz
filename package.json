@@ -1,6 +1,7 @@
 {
   "name": "gocows-tz",
   "version": "1.0.0",
+  "homepage": "https://NULLPOINTER-Artem.github.io/gocows-tz",
   "main": "index.js",
   "scripts": {
     "dev": "npx vite",
